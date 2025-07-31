@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>position exercise</title>
+  </header>
+  <body style="height: 3000px">
+    <div
+      style="
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: green;
+        color: white;
+        width: 100px;
+      "
+    >
+      right side
+    </div>
+
+    <div
+      style="
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+      "
+    >
+      <div
+        style="
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          justify-content: center;
+          align-items: start;
+          background-color: white;
+          color: black;
+          width: 600px;
+          height: 150px;
+          border-radius: 10px;
+        "
+      >
+        <div style="font-size: 25px; font-weight: bold">Modal title</div>
+        <div>this is a modal</div>
+        <button>close</button>
+      </div>
+    </div>
+  </body>
+</html>

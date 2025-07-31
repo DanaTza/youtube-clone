@@ -1,0 +1,257 @@
+button {
+  cursor: pointer;
+}
+.uber-button {
+  color:white;
+  background-color: black;
+  width: 105px;
+  height: 36px;
+  border: none;
+  transition: opacity 0.15s;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.uber-button:hover {
+  opacity: 0.7;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  font-size: 12px;
+  font-weight: bold;
+  width: 105px;
+  height: 36px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 8px;
+  display: block;
+  margin-bottom: 15px;
+  transition: background-color 0.15s;
+}
+
+.amazon-button:hover {
+  background-color: rgb(255, 192, 20);
+}
+
+.github-button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 15px;
+  transition: box-shadow 0.15s;
+}
+
+.github-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-container {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.bootstrap-start-button {
+  background-color: rgb(90, 5, 146);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 105px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.15;
+}
+
+.bootstrap-start-button:hover {
+  background-color: rgb(64, 4, 104);
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  width: 105px;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  transition: background-color 0.15s,
+  color 0.15s;
+}
+
+.bootstrap-download-button:hover {
+  background: gray;
+  color: white;
+}
+
+.linkedin-apply-button {
+  color: white;
+  background-color: rgb(46, 106, 185);
+  width: 220px;
+  height: 36px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: background-color 0.15s;
+}
+
+.linkedin-apply-button:hover {
+  background-color: rgb(35, 82, 143);
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: rgb(46, 106, 185);
+  border: 1px solid rgb(46, 106, 185);
+  font-weight: bold;
+  font-size: 14px;
+  width: 70px;
+  height: 36px;
+  border-radius: 15px;
+  transition: background-color 0.15s,
+  border-width 0.15s;
+}
+
+.linkedin-save-button:hover {
+  border-width: 2px;
+  background-color: rgb(222, 240, 252);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination .prev, .pagination .next {
+  font-weight: bold;
+}
+
+.pagination .page {
+  display: inline-block;
+}
+
+.pagination .page.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination .disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+
+.stretch-button {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: padding 0.15;
+}
+
+.stretch-button:hover {
+  padding: 14px 20px 14px 20px;
+}
+
+.shadow-button {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.15;
+}
+
+.shadow-button:active {
+  box-shadow: none;
+}
+
+.three-buttons {
+  display: block;
+  margin-top: 30px;
+}
+
+.one-button {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  transition: padding 0.15,
+  margin-right 0.15s;
+}
+
+.one-button:hover {
+  padding: 14px 20px 14px 20px;
+  margin-right: 8px;
+}
+
+
+
+.two-button {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: padding 0.15,
+  margin-right 0.15s;
+}
+
+.two-button:hover {
+  padding: 14px 20px 14px 20px;
+  margin-right: 8px;
+}
+
+.three-button {
+  background-color: rgb(3, 105, 3);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: padding 0.15,
+  margin-right 0.15s;
+}
+
+.three-button:hover {
+  padding: 14px 20px 14px 20px;
+  margin-right: 8px;
+}

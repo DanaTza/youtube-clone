@@ -1,0 +1,174 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.tahoma-font {
+  font-family: tahoma;
+  margin-bottom: 30px;
+}
+
+.promo {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+  margin-bottom: 10px;
+}
+
+.promo-end {
+  font-size: 15px;
+  font-family: arial;
+  color: red;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.course {
+  font-family: verdana;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.level {
+  font-family: verdana;
+  font-size: 15px;
+  color: rgb(155, 152, 152);
+  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.course-descreption {
+  width: 250px;
+  font-family: verdana;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.start-button {
+  background-color: green;
+  color: white;
+  padding: 8px 10px 8px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.apple-promo {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.apple-help {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.apple-more {
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mac-add {
+  font-family: arial;
+  text-align: center;
+}
+
+.new {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.macbook {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.for-pros {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.buy-mac {
+  padding: 6px 12px 6px 12px;
+  border: none;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.stocks {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.money {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.curency {
+  font-size: 14px;
+  color: rgb(146, 146, 146);
+  margin-bottom: 15px;
+}
+
+.offer {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.offer-two {
+  font-size: 14px;
+  color: rgb(146, 146, 146);
+  margin-bottom: 40px;
+}
+
+.discunt {
+  color: red;
+}
+
+.name-camp {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.camp-address {
+  color: rgb(155, 154, 154);
+}
+
+.some-words {
+  width: 320px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.example {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.example-name {
+  color: lightblue;
+}

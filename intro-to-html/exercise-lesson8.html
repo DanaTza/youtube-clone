@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      display property
+    </title>
+    <style>
+      .textbox-one,
+      .textbox-two {
+        display: block;
+        width: 150px;
+        border: 1px solid gray;
+        border-radius: 4px;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 10px;
+      }
+
+      .thanks {
+        display: inline-block;
+        width: 200px;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+
+      .yes-button {
+        display: inline-block;
+        margin-right: 8px;
+        border: 1px solid rgb(165, 164, 164);
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+        vertical-align: middle;
+      }
+
+      .no-button {
+        display: inline-block;
+        margin-right: 8px;
+        border: 1px solid rgb(165, 164, 164);
+        padding: 5px 5px 5px 5px;
+        border-radius: 2px;
+        vertical-align: middle;
+      }
+
+      .google-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .google-image {
+        width: 300px;
+        object-fit: contain;
+        object-position: center;
+        display: block;
+        justify-content: center;
+
+      }
+
+      .textbox-two {
+        width: 600px;
+        height: 25px;
+        padding: 10px 10px 10px 10px;
+        border: none;
+        border-radius: 30px;
+        display: block;
+        box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.15);
+        margin-bottom: 40px;
+        justify-content: center;
+      }
+
+      .uber-add {
+        font-size: 25px;
+        margin-bottom: 15px;
+        display: block;
+      }
+
+      .textbox-lacation {
+        border: none;
+        background-color: rgb(238, 235, 235);
+        color: rgb(145, 145, 145);
+        width: 200px;
+        padding: 10px 12px 10px 12px;
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .textbox-destination {
+        border: none;
+        background-color:  rgb(238, 235, 235);
+        color: rgb(145, 145, 145);
+        width: 200px;
+        padding: 10px 12px 10px 12px;
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .request-button {
+        border: none;
+        background-color: black;
+        color: white;
+        width: 120px;
+        padding: 10px 12px 10px 12px;
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 15px;
+        margin-right: 10px;
+      }
+
+      .schedule-button {
+        border: none;
+        background-color: rgb(228, 226, 226);
+        color: black;
+        width: 140px;
+        padding: 10px 12px 10px 12px;
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-top: 15px;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <input class="textbox-one" type="text" placeholder="Name">
+    <input class="textbox-two" type="text" placeholder="Email">
+
+    <p class="thanks">
+      Thanks for chatting with our customer support.
+      Would you like to take a quick survey?
+    </p>
+
+    <button class="yes-button">
+      Yes
+    </button>
+
+    <button class="no-button">
+      No
+    </button>
+
+    <div class="google-page">
+      <img class="google-image" src="google_PNG19644.png">
+      <input class="textbox-two" type="text"
+        placeholder="Shearch Google or type a URL">
+    </div>
+    <p class="uber-add">Request a ride now</p>
+    <input  class="textbox-lacation" type="text" placeholder="Enter pickup location">
+    <input class="textbox-destination" type="text" placeholder="Enter destination">
+    <button class="request-button">Request now</button>
+    <button class="schedule-button">Schedule for later</button>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+p {
+  font-family: montserrat;
+  text-align: center;
+}
+
+.title {
+font-size: 25px;
+font-weight: bold;
+}
+
+.order {
+  font-size: 17px;
+}
+
+.delivery {
+  text-decoration: underline;
+}
